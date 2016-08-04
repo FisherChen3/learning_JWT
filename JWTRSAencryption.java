@@ -19,7 +19,7 @@ import com.nimbusds.jose.crypto.RSAEncrypter;
 import com.nimbusds.jose.crypto.bc.BouncyCastleProviderSingleton;
 import com.nimbusds.jwt.EncryptedJWT;
 import com.nimbusds.jwt.JWTClaimsSet;
-
+// JSON Web Token (JWT) with RSA encryption
 public class EncryptedJWTTest extends TestCase{
 	
 	public static void main(String[] args) {
